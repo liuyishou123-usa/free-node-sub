@@ -1,0 +1,74 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+甬哥Github项目 ：github.com/yonggekkk
+甬哥Blogger博客 ：ygkkk.blogspot.com
+甬哥YouTube频道 ：www.youtube.com/@ygkkk
+Argosbx一键无交互小钢炮脚本💣
+当前版本：V26.5.10
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+执行必要的脚本依赖中，请稍等10秒……
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+debconf: DbDriver "config": could not write /var/cache/debconf/config.dat-new: Permission denied
+VPS系统：Ubuntu 20.04.6 LTS
+CPU架构：amd64
+Argosbx脚本未安装，开始安装…………
+
+=========启用xray内核=========
+#=#=#                                                                          ##O#- #                                                                        ########################################                                   55.2%######################################################################### 100.0%
+已安装Xray正式版内核：26.3.27
+UUID密码：5b87375b-3b1e-4bbf-8184-0a66ebbdcab1
+Vmess-ws端口：63840
+
+=========启用Cloudflared-argo内核=========
+下载Cloudflared-argo最新正式版内核：2026.6.1
+                                                                            0.6%###################                                                        26.7%###################                                                        26.9%########################################################                   76.8%######################################################################### 100.0%
+申请Argo临时隧道中……请稍等
+Argo临时隧道申请成功
+
+Argosbx脚本进程启动成功，安装完毕
+
+=========当前三大内核运行状态=========
+Sing-box：未启用
+Xray (版本V26.3.27)：运行中
+Argo (版本V2026.6.1)：运行中
+
+=========当前服务器本地IP情况=========
+本地IPV4地址：23.97.62.141 
+本地IPV6地址：无IPV6 
+服务器地区：
+
+*********************************************************
+*********************************************************
+Argosbx脚本输出节点配置如下：
+
+
+💣【 Vmess-ws 】节点信息如下：
+vmess://eyAidiI6ICIyIiwgInBzIjogInZtLXdzLWNvZGVzcGFjZXMtMjQyZmU4IiwgImFkZCI6ICIyMy45Ny42Mi4xNDEiLCAicG9ydCI6ICI2Mzg0MCIsICJpZCI6ICI1Yjg3Mzc1Yi0zYjFlLTRiYmYtODE4NC0wYTY2ZWJiZGNhYjEiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogInd3dy5iaW5nLmNvbSIsICJwYXRoIjogIi81Yjg3Mzc1Yi0zYjFlLTRiYmYtODE4NC0wYTY2ZWJiZGNhYjEtdm0iLCAidGxzIjogIiJ9Cg==
+
+---------------------------------------------------------
+Argo隧道端口正在使用Vmess-ws主协议端口：63840
+Argo域名：performer-driving-equipped-reliable.trycloudflare.com
+
+
+1、💣443端口的Vmess-ws-tls-argo节点(优选IP与443系端口随便换)
+vmess://eyAidiI6ICIyIiwgInBzIjogInZtZXNzLXdzLXRscy1hcmdvLWNvZGVzcGFjZXMtMjQyZmU4LTQ0MyIsICJhZGQiOiAieWcxLnlna2trLmRwZG5zLm9yZyIsICJwb3J0IjogIjQ0MyIsICJpZCI6ICI1Yjg3Mzc1Yi0zYjFlLTRiYmYtODE4NC0wYTY2ZWJiZGNhYjEiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogInBlcmZvcm1lci1kcml2aW5nLWVxdWlwcGVkLXJlbGlhYmxlLnRyeWNsb3VkZmxhcmUuY29tIiwgInBhdGgiOiAiLzViODczNzViLTNiMWUtNGJiZi04MTg0LTBhNjZlYmJkY2FiMS12bSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJwZXJmb3JtZXItZHJpdmluZy1lcXVpcHBlZC1yZWxpYWJsZS50cnljbG91ZGZsYXJlLmNvbSIsICJhbHBuIjogIiIsICJmcCI6ICJjaHJvbWUifQo=
+
+2、💣80端口的Vmess-ws-argo节点(优选IP与80系端口随便换)
+vmess://eyAidiI6ICIyIiwgInBzIjogInZtZXNzLXdzLWFyZ28tY29kZXNwYWNlcy0yNDJmZTgtODAiLCAiYWRkIjogInlnNi55Z2tray5kcGRucy5vcmciLCAicG9ydCI6ICI4MCIsICJpZCI6ICI1Yjg3Mzc1Yi0zYjFlLTRiYmYtODE4NC0wYTY2ZWJiZGNhYjEiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogInBlcmZvcm1lci1kcml2aW5nLWVxdWlwcGVkLXJlbGlhYmxlLnRyeWNsb3VkZmxhcmUuY29tIiwgInBhdGgiOiAiLzViODczNzViLTNiMWUtNGJiZi04MTg0LTBhNjZlYmJkY2FiMS12bSIsICJ0bHMiOiAiIn0K
+
+
+---------------------------------------------------------
+聚合节点信息，请进入 /home/codespace/agsbx/jhsub.txt 文件目录查看或者运行 cat /home/codespace/agsbx/jhsub.txt 查看
+=========================================================
+相关快捷方式如下：(首次安装成功后需重连SSH，agsbx快捷方式才可生效；如未生效，请使用主脚本)
+Argosbx脚本一键SSH命令生器在线网址：https://yonggekkk.github.io/argosbx/
+主脚本：bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh) 或 bash <(wget -qO- https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
+显示节点信息命令：agsbx list 【或者】 主脚本 list
+重置变量组命令：自定义各种协议变量组 agsbx rep 【或者】 自定义各种协议变量组 主脚本 rep
+更新脚本命令：原已安装的自定义各种协议变量组 主脚本 rep
+更新Xray或Singbox内核命令：agsbx upx或ups 【或者】 主脚本 upx或ups
+重启脚本命令：agsbx res 【或者】 主脚本 res
+卸载脚本命令：agsbx del 【或者】 主脚本 del
+双栈VPS显示IPv4/IPv6节点配置命令：ippz=4或6 agsbx list 【或者】 ippz=4或6 主脚本 list
+---------------------------------------------------------
+
+
