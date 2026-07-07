@@ -1,0 +1,86 @@
+allow-lan: false
+external-controller: 127.0.0.1:9090
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '[92.6ms] 86-trojan-🇯🇵JP-103.125.216.18-0211'
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: '[94.1ms] 57-shadowsocks-🇯🇵JP-149.22.87.204-0'
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[94.5ms] 58-shadowsocks-🇯🇵JP-149.22.87.241-0'
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[94.6ms] 56-shadowsocks-🇯🇵JP-149.22.87.240-4'
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+  udp: true
+- name: '[96.8ms] 83-trojan-🇯🇵JP-13.230.134.89-0152'
+  password: PI36027154
+  port: 443
+  server: large-baboon.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '[119.7ms] 87-trojan-🇯🇵JP-103.125.216.68-0215'
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.68
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '[1119.7ms] 82-vmess-🇯🇵 JP 6'
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  type: vmess
+  udp: true
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+proxy-groups:
+- interval: 300
+  name: Auto
+  proxies:
+  - '[92.6ms] 86-trojan-🇯🇵JP-103.125.216.18-0211'
+  - '[94.1ms] 57-shadowsocks-🇯🇵JP-149.22.87.204-0'
+  - '[94.5ms] 58-shadowsocks-🇯🇵JP-149.22.87.241-0'
+  - '[94.6ms] 56-shadowsocks-🇯🇵JP-149.22.87.240-4'
+  - '[96.8ms] 83-trojan-🇯🇵JP-13.230.134.89-0152'
+  - '[119.7ms] 87-trojan-🇯🇵JP-103.125.216.68-0215'
+  - '[1119.7ms] 82-vmess-🇯🇵 JP 6'
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: Fallback
+  proxies:
+  - '[92.6ms] 86-trojan-🇯🇵JP-103.125.216.18-0211'
+  - '[94.1ms] 57-shadowsocks-🇯🇵JP-149.22.87.204-0'
+  - '[94.5ms] 58-shadowsocks-🇯🇵JP-149.22.87.241-0'
+  - '[94.6ms] 56-shadowsocks-🇯🇵JP-149.22.87.240-4'
+  - '[96.8ms] 83-trojan-🇯🇵JP-13.230.134.89-0152'
+  - '[119.7ms] 87-trojan-🇯🇵JP-103.125.216.68-0215'
+  - '[1119.7ms] 82-vmess-🇯🇵 JP 6'
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+redir-port: 7892
+rules:
+- MATCH,Auto
+socks-port: 7891
